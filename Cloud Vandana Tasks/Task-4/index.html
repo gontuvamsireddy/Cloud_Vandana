@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Form</title>
+        <style>
+            fieldset{
+                margin-left: 30% ;
+                padding-left: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 500;
+                border-radius: 20px;
+                background-color: #f1f1f1;
+                border-color: rgb(40, 13, 174);
+                font-size: xx-large;
+                max-width: 570px;
+            }
+            input,select{
+                height: 25px;
+                width:210px;
+                border-color: rgb(80, 132, 143);
+            }
+
+
+            div{
+                margin-left: 33%;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                font-size: x-large;
+                color: coral;
+            }
+            img{
+                width: 5%;
+                height: 5%;
+            }
+            .label{
+                font-size: 25px;
+            }
+            input::placeholder{
+                font-size: large;
+            }
+            
+            
+            
+
+           
+        </style>
+
+    </head>
+    <body style="background-color: #cdf;">
+        <form action="Thank.html" >
+            <div>
+                <img src="contact.png" style="color:coral">&nbsp; &nbsp; <h1>Customer Survey Form</h1>
+            </div>
+            
+            <fieldset>  
+                <legend style="color: brown; font-weight: 500;">Personal Details</legend>
+                <table>
+                
+                <tr>
+                    <td>First Name</td>
+                    <td class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="text" name="fname" placeholder="Ex:vamsi" size="15" maxlength="25" required ></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td class="a"></td>
+                    <td><input type="text" name="lname" placeholder="Ex:Gontu" size="15" maxlength="25" required ></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td class="a"></td>
+                    <td><input type="date" name="DOB" required></td>
+                </tr>
+                <tr>
+                    <td>Select Country</td>
+                    <td class="a"></td>
+                    <td>
+                        <select name="country" required>
+                        <option value="India">India</option>
+                        <option value="china">China</option>
+                        <option value="usa">Usa</option>
+                        <option value="uk">Uk</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="Russia">Russia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td class="a"></td>
+                    <td><input type="checkbox"name="Gender" value="M" style="width: 15px;height:15px;"> <label class="label">Male</label>
+                        <input type="checkbox" name="Gender" value="F" style="width: 15px;height:15px;"><label class="label">Female</label>
+                        <input type="checkbox" name="Gender" value="C" style="width: 15px;height:15px;"><label class="label">Custom</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Proffesion</td>
+                    <td class="a"></td>
+                    <td><input type="text" name="profession" placeholder="Ex:Software" size="15" maxlength="25" required></td>
+
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td class="a"></td>
+                    <td><input type="email" name="email" placeholder="Ex:vamsi@gmail.com" size="15" maxlength="25" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td class="a"></td>
+                    <td><input type="tel" name="num" placeholder="Ex:8519803744" size="15" maxlength="25" required></td>
+                </tr>
+                <tr>
+                   
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="a"></td>
+                    <td class="button"><input type="submit" style="width:100px;font-size: 20px;background-color: green;color: white;height: 30px;">&nbsp; &nbsp;<input type="reset" style="width: 100px; height:30px;background-color: red;font-size: 20px;border-radius: 15px;color: white;"></td>
+                </tr>
+                
+                </table>
+            </fieldset>
+        </form>
+        <script>
+
+        </script>
+
+        
+    </body>
+
+</html>
+
